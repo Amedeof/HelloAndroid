@@ -1,0 +1,73 @@
+ <RelativeLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     tools:context=".HelloAndroid"
+     android:orientation="vertical"
+     android:background="@drawable/group_orange">
+
+
+     <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/udacity_2"
+        android:layout_margin="40dp"
+        />
+
+     <TextView
+         android:text="Udacity"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentRight="true"
+         android:layout_centerHorizontal="true"
+         android:textStyle="bold"
+         android:fontFamily="sans-serif"
+         android:textColor="#E1F5FE"
+         android:paddingBottom="65dp"
+         android:paddingRight="20dp"
+         />
+     <TextView
+         android:text="2465 Latham St"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentRight="true"
+         android:layout_centerHorizontal="true"
+         android:textStyle="bold"
+         android:fontFamily="sans-serif"
+         android:textColor="#E1F5FE"
+         android:paddingBottom="50dp"
+         android:paddingRight="20dp"
+         />
+
+      <TextView
+          android:text="Mountain View, CA 94043"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentRight="true"
+          android:layout_centerHorizontal="true"
+          android:textStyle="bold"
+          android:fontFamily="sans-serif"
+          android:textColor="#E1F5FE"
+          android:paddingBottom="35dp"
+          android:paddingRight="20dp"
+          />
+      <TextView
+          android:text="650-555-5555"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentRight="true"
+          android:layout_centerHorizontal="true"
+          android:textStyle="bold"
+          android:fontFamily="sans-serif"
+          android:textColor="#E1F5FE"
+          android:paddingBottom="20dp"
+          android:paddingRight="20dp"
+          />
+
+</RelativeLayout>
